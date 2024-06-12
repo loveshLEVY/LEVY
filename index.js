@@ -29,3 +29,7 @@ document.querySelectorAll(".rectangle,.new-rectangle").forEach((element) => {
 		}
 	});
 });
+
+document.getElementById("menu-icon").addEventListener("click", function () {
+	document.querySelector(".navlist").classList.toggle("active");
+});
