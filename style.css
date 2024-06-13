@@ -635,12 +635,17 @@ form textarea {
 @media (max-width: 600px) {
 	body {
 		text-align: center;
+		
 	}
 
 	.intro-heading {
 		font-size: 3rem;
-		text-align: center;
-		margin-left: 0;
+		
+		margin-left: 300px;
+	}
+	
+	.home-video-container{
+		display: flex;
 	}
 
 	.home-text-overlay {
@@ -649,7 +654,7 @@ form textarea {
 	}
 
 	.home-text-overlay .button1 {
-		margin-right: 0;
+		margin-left: 700px;
 	}
 
 	.about {
@@ -659,23 +664,36 @@ form textarea {
 
 	.about-img div {
 		font-size: 2rem;
+		margin-left: 300px;
 	}
 
 	.about-text p {
 		font-size: 1rem;
 		margin-bottom: 2rem;
+		margin-left: 300px;
 	}
 
-	.services-content {
+	.main-text h2{
+		margin-left: 300px;
+	}
+	
+	.main-text h1{
+		margin-left: 280px;
+	}
+
+	.services-content div{
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(3, auto);
+		margin-left: 250px;
 	}
+
 
 	.portfolio-content .container,
 	.portfolio-content .container2 {
 		grid-template-columns: 1fr;
 	}
 
+	
 	.rectangle,
 	.newrectangle {
 		width: 100%;
@@ -716,4 +734,10 @@ form textarea {
 	.navlist.active li {
 		margin: 20px 0;
 	}
+
+	.contacth1 h1{
+		margin-left: 10px;
+	}
+
+	
 }
